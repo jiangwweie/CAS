@@ -9,10 +9,11 @@
   "attributeReleasePolicy": {
     "@class": "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
   },
-
   "accessStrategy": {
     "@class": "org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy",
     "enabled": true,
     "ssoEnabled": true
-  }
+  },
+  "logoutType": "BACK_CHANNEL",
+  "logoutUrl": "https://server.cas.com/cas/logout"
 }

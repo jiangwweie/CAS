@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.apereo.cas.config.CasEmbeddedContainerTomcatConfiguration,\
-  org.apereo.cas.config.CasEmbeddedContainerTomcatFiltersConfiguration
-
+    com.whhx.config.DataSourceConfig,\
+    com.whhx.config.SpringConfig,\
+  com.whhx.config.CustomAutoConfig
